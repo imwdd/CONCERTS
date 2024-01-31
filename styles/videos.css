@@ -89,6 +89,10 @@ a {
 
 /*Section principal*/
 
+.principal {
+    overflow: hidden;
+}
+
 .titulotarjeta {
     margin-bottom: 30px;
     text-align: center;
@@ -96,6 +100,16 @@ a {
 
 .videotarjeta {
     margin-bottom: 30px;
+    width: 450px; 
+    height: 250px;
+}
+
+.divpadre {
+    margin-left: 20px;
+}
+
+.fila2 {
+    margin: 0 250px 0 250px;
 }
 
 .contenedor:hover {
@@ -105,21 +119,44 @@ a {
 }
 
 .contenedor {
-    width: 500px;
-    height: 480px;
-    margin: 0 40px 0 40px;  /* margin-left y margin-right */
+    width: 450px;
+    height: 500px;
     border: 2px solid #DCDCDC;
     text-align: left;
     vertical-align: top;
+    margin-right: 25px;
     margin-bottom: 25px;
     border-radius: 8px;
     -webkit-box-shadow: 1px 5px 40px -1px rgba(123,122,178,0.29);
     -moz-box-shadow: 1px 5px 40px -1px rgba(123,122,178,0.29);
     box-shadow: 1px 5px 40px -1px rgba(123,122,178,0.29);
     padding: 10px;
+    float: left;
 }
 
 p {
-    width: 500px;
+    width: 450px;
     text-align: justify;
+}
+
+/* Footer */
+.footer {
+    position: absolute;
+    height: 40px;
+    background: #bcbbf7;
+    padding: 20px;
+}
+
+.rrss {
+    width: 30px;
+    height: 30px;
+    margin: 5px 0 0 10px;
+}
+
+#credits {
+    float: left;
+    margin-top: 8px;
+}
+.redessociales {
+    margin-left: 1300px;
 }

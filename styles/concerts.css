@@ -91,9 +91,18 @@ a {
     display: block;
 }
 
+/*Section principal */
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 #tabla {
     border-collapse: collapse;
-    margin: 0 0 40px 510px;
     -webkit-box-shadow: 1px 5px 40px -1px rgba(123,122,178,0.29);
     -moz-box-shadow: 1px 5px 40px -1px rgba(123,122,178,0.29);
     box-shadow: 1px 5px 40px -1px rgba(123,122,178,0.29);
@@ -114,6 +123,7 @@ th, td {
     padding: 15px;
     text-align: center;
 }
+
 
 /*Footer*/
 

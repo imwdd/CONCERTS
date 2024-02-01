@@ -106,20 +106,20 @@ a {
 
 .raise {
     padding: 10px 0 10px 0;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .botonlink:hover {
-    -webkit-box-shadow: inset 0px 13px 6px -3px rgba(215,215,224,1);
-    -moz-box-shadow: inset 0px 13px 6px -3px rgba(215,215,224,1);
-    box-shadow: inset 0px 13px 6px -3px rgba(215,215,224,1);
+    -webkit-box-shadow: 1px 5px 40px -1px rgba(123,122,178,1);
+    -moz-box-shadow: 1px 5px 40px -1px rgba(123,122,178,1);
+    box-shadow: 1px 5px 40px -1px rgb(123, 122, 179);
 }
 
 .botonlink {
-    border: 1px solid #ccccdb;
+    border: 1px solid black;
     border-radius: 4px;
     background: #bcbbf7;
-    padding: 8px;
+    padding: 10px 15px 10px 15px;
 }
 
 /*Footer*/

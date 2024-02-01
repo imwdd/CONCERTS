@@ -133,11 +133,10 @@ a {
 
 .subtarjeta {
     padding: 10px;
-    text-align: center;
 }
 
 .divtarjeta {
-    display: inline;   
+    display: inline; 
 }
 
 .columna:hover {

@@ -93,57 +93,65 @@ a {
 
 /*Section principal*/
 
-.principal {
-    overflow: hidden;
-    padding-top: 35px;
-    padding-bottom: 35px;
+.imatge {
+    width: 200px;
+    height: 200px;
 }
 
-.titulotarjeta {
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.videotarjeta {
-    margin-bottom: 30px;
-    width: 450px; 
-    height: 250px;
-}
-
-.divpadre {
-    margin-left: 20px;
+.contenedor, .fila2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .fila2 {
-    margin: 0 250px 0 250px;
+    padding-bottom: 30px;
 }
 
-.contenedor:hover {
+.tabla {
+    border-collapse: collapse;
+    -webkit-box-shadow: 1px 5px 40px -1px rgba(123,122,178,0.29);
+    -moz-box-shadow: 1px 5px 40px -1px rgba(123,122,178,0.29);
+    box-shadow: 1px 5px 40px -1px rgba(123,122,178,0.29);
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.tabla:hover {
     -webkit-box-shadow: 1px 5px 40px -1px rgba(123,122,178,1);
     -moz-box-shadow: 1px 5px 40px -1px rgba(123,122,178,1);
     box-shadow: 1px 5px 40px -1px rgba(123,122,178,1);
 }
 
-.contenedor {
-    width: 450px;
-    height: 500px;
-    border: 2px solid #DCDCDC;
-    text-align: left;
-    vertical-align: top;
-    margin-right: 25px;
-    margin-bottom: 25px;
-    border-radius: 8px;
+#ultimatabla {
+    border-collapse: collapse;
     -webkit-box-shadow: 1px 5px 40px -1px rgba(123,122,178,0.29);
     -moz-box-shadow: 1px 5px 40px -1px rgba(123,122,178,0.29);
     box-shadow: 1px 5px 40px -1px rgba(123,122,178,0.29);
-    padding: 10px;
     float: left;
+    text-align: center;
 }
 
-p {
-    width: 450px;
-    text-align: justify;
+#ultimatabla:hover {
+    -webkit-box-shadow: 1px 5px 40px -1px rgba(123,122,178,1);
+    -moz-box-shadow: 1px 5px 40px -1px rgba(123,122,178,1);
+    box-shadow: 1px 5px 40px -1px rgba(123,122,178,1); 
 }
+
+th {
+    background-color: #9896ef;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
 
 /* Footer */
 .footer {
@@ -163,10 +171,9 @@ p {
     margin-top: 8px;
     float: right;
     padding-right: 5%;
-    width: 300px;
 }
-
 .redessociales {
     float: right;
     padding-right: 2%;
 }
+

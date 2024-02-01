@@ -5,33 +5,37 @@
 }
 
 #logo {
-    margin: 10px 0px 0px 10px
+    padding: 10px 0 0 10px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
 }
+
 .header {
     background: #bcbbf7;
-    height: 110px;
+    height: 90px;
     margin-bottom: 60px;
 }
 
 h1 {
-    display: inline;
-    margin-left: 435px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
 }
 
 .containertitle {
-
+    width: 100%;
     display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    padding-top: 5px;
 }
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 16px;
-    height: 100px;
     text-align: center;
-    margin: 0px;
 }
 
 .navbar {
@@ -98,7 +102,7 @@ a {
 #tabla:hover {
     -webkit-box-shadow: 1px 5px 40px -1px rgba(123,122,178,1);
     -moz-box-shadow: 1px 5px 40px -1px rgba(123,122,178,1);
-    box-shadow: 1px 5px 40px -1px rgba(123,122,178,1);
+    box-shadow: 1px 5px 40px -1px rgb(123, 122, 179);
 }
 
 th {
@@ -115,8 +119,9 @@ th, td {
 
 .footer {
     height: 40px;
+    width: 100%;
     background: #bcbbf7;
-    padding: 20px;
+    padding: 1% 0 1% 0;
 }
 
 .rrss {
@@ -126,10 +131,11 @@ th, td {
 }
 
 #credits {
-    float: left;
     margin-top: 8px;
+    float: right;
+    padding-right: 5%;
 }
 .redessociales {
-    float: left;
-    margin-left: 1000px;
+    float: right;
+    padding-right: 2%;
 }

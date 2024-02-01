@@ -91,61 +91,39 @@ a {
     display: block;
 }
 
-/*Section principal*/
-
-.principal {
-    overflow: hidden;
-    padding-top: 35px;
-    padding-bottom: 35px;
-}
-
-.titulotarjeta {
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.videotarjeta {
-    margin-bottom: 30px;
-    width: 450px; 
-    height: 250px;
-}
-
-.divpadre {
-    margin-left: 20px;
-}
-
-.fila2 {
-    margin: 0 250px 0 250px;
-}
-
-.contenedor:hover {
-    -webkit-box-shadow: 1px 5px 40px -1px rgba(123,122,178,1);
-    -moz-box-shadow: 1px 5px 40px -1px rgba(123,122,178,1);
-    box-shadow: 1px 5px 40px -1px rgba(123,122,178,1);
-}
+/* Section principal */
 
 .contenedor {
-    width: 450px;
-    height: 500px;
-    border: 2px solid #DCDCDC;
-    text-align: left;
-    vertical-align: top;
-    margin-right: 25px;
-    margin-bottom: 25px;
-    border-radius: 8px;
-    -webkit-box-shadow: 1px 5px 40px -1px rgba(123,122,178,0.29);
-    -moz-box-shadow: 1px 5px 40px -1px rgba(123,122,178,0.29);
-    box-shadow: 1px 5px 40px -1px rgba(123,122,178,0.29);
-    padding: 10px;
-    float: left;
+    margin: 0 auto;
+    width: 50%;
 }
 
-p {
-    width: 450px;
-    text-align: justify;
+.artistas {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
 }
 
-/* Footer */
+.raise {
+    padding: 10px 0 10px 0;
+    margin-bottom: 30px;
+}
+
+.botonlink:hover {
+    -webkit-box-shadow: inset 0px 13px 6px -3px rgba(215,215,224,1);
+    -moz-box-shadow: inset 0px 13px 6px -3px rgba(215,215,224,1);
+    box-shadow: inset 0px 13px 6px -3px rgba(215,215,224,1);
+}
+
+.botonlink {
+    border: 1px solid #ccccdb;
+    border-radius: 4px;
+    background: #bcbbf7;
+    padding: 8px;
+}
+
+/*Footer*/
+
 .footer {
     height: 40px;
     width: 100%;
@@ -163,9 +141,7 @@ p {
     margin-top: 8px;
     float: right;
     padding-right: 5%;
-    width: 300px;
 }
-
 .redessociales {
     float: right;
     padding-right: 2%;

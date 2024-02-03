@@ -110,15 +110,13 @@ a {
 }
 
 .botonlink:hover {
-    -webkit-box-shadow: 1px 5px 40px -1px rgba(123,122,178,1);
-    -moz-box-shadow: 1px 5px 40px -1px rgba(123,122,178,1);
-    box-shadow: 1px 5px 40px -1px rgb(123, 122, 179);
+    background: #bcbbf7;
 }
 
 .botonlink {
-    border: 1px solid black;
+    border: 3px solid #bcbbf7;
     border-radius: 4px;
-    background: #bcbbf7;
+    background: white;
     padding: 10px 15px 10px 15px;
 }
 

@@ -106,12 +106,13 @@ a {
 
 .videotarjeta {
     margin-bottom: 30px;
-    width: 450px; 
+    width: 400px; 
     height: 250px;
 }
 
 .divpadre {
-    margin-left: 20px;
+    width: 100%;
+    margin: 0 5% 0 5%;
 }
 
 .fila2 {
@@ -125,8 +126,8 @@ a {
 }
 
 .contenedor {
-    width: 450px;
-    height: 500px;
+    width: 400px;
+    height: 530px;
     border: 2px solid #DCDCDC;
     text-align: left;
     vertical-align: top;
@@ -141,7 +142,7 @@ a {
 }
 
 p {
-    width: 450px;
+    width: 400px;
     text-align: justify;
 }
 
